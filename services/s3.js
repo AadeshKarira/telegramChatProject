@@ -1,7 +1,7 @@
 var AWS = require('aws-sdk');
 AWS.config.update({
-    "accessKeyId":"xx-xx",
-    "secretAccessKey":"xx-xx",
+    "accessKeyId":"xxxxx",
+    "secretAccessKey":"xxxxxxx",
     "region":"ap-south-1"   
 });
 var s3Bucket = new AWS.S3( { params: {Bucket: 'promotions-material'} } );
