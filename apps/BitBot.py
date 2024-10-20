@@ -13,9 +13,9 @@ from services import helper,s3
 import base64
 
 
-TOKEN: Final ='6763464118:AAH-DBNJ5iYI_GICfKRjZmOnA_K424Ogce8'
+TOKEN: Final ='xxxxxxxxxxxxxxxxxxxxxxx'
 BOT_USERNAME: Final ='@Starter_Bit_Bot'
-URL = 'http://13.232.2.16/'
+URL = 'http://xxxxxxxxxxxxxx/'
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Hello from Bits and pieces")
